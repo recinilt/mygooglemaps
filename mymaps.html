@@ -5,16 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        #map{
-            height: 400px;
-            width:100%;
-        }
-    </style>
+    
 </head>
 <body>
     
-    <div id="map">
+    <div id="map" style="height: 400px; width: 100%;">
 
     </div>
 
@@ -106,6 +101,29 @@
             */
 
         }
+
+        //google maps keyi şöyle alındı:
+        //https://console.cloud.google.com/apis/credentials?project=mymaps-267321
+        //kimlik bilgileri,
+        //kimlik bilgisi oluştur,
+        //api anahtarı.
+
+        /*
+        google maps api tutorial
+        https://developers.google.com/maps/documentation/javascript/tutorial
+        
+        var demeden, = ile değişken tanımlıyorlar.
+
+değişkendeki () fonksiyonu, sonradan sadece o kısmı alıp tanımlıyorlar.
+() fonksiyondaki parametreleri, parametre:açıklama şeklinde yapıyorlar.
+
+mesela
+map = new google.maps.Map(mapDiv:Node, opts?:MapOptions)
+
+Map(mapDiv:Node, opts?:MapOptions)
+
+
+        */
     </script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFfYAGWLAGOQxwwg2v8ruEDy8fSrO_F5c&callback=initMap"
